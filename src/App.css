@@ -1,0 +1,22 @@
+.container {
+  max-width: 1600px; /* hoặc 1400px tuỳ ý bạn */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  /* giữ padding 2 bên */
+  padding-right: 1rem;
+}
+.custom-card-content {
+  padding-top: 0.25rem !important;
+  margin-top: -1.5rem !important;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE và Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dark .card {
+  box-shadow: 0 4px 12px oklch(0 0 0 / 0.4);
+}
